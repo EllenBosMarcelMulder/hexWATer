@@ -1,57 +1,77 @@
 # GEBRUIKERSHANDLEIDING – hexWATer
 
-## Inhoud
-1. Installatie  
-2. Configuratie  
-3. Onderhoud  
-4. Kalibratie  
-5. Problemen oplossen  
+Deze handleiding is bedoeld voor iedereen die een hexWATer-systeem wil bouwen, begrijpen of gebruiken. De taal is eenvoudig. De werking is complex maar maakbaar. Het doel is helder: vrij toegang tot water voor iedereen.
 
 ---
 
-## 1. Installatie
-1. Clone de repository:  
-2. Zorg dat Node.js en Python geïnstalleerd zijn voor de scripts en sensorcommunicatie.  
-3. Plaats het bestand `waterPulseEngine.bin` in `/BIN/` en `mirrorProofMatrix.json` in `/MATRIX/`.  
-4. Installeer afhankelijkheden voor `hashValidator.js`:
+## 🧰 Wat heb je nodig?
+
+- Lucht  
+- Een condensatie-oppervlak met hexagonale structuur (printbaar of met de hand te maken)  
+- Passieve luchtinlaat (bv. opening naar buitenlucht)  
+- Opvangreservoir (glas, keramiek, plastic)  
+- Optioneel: biofilter voor drinkwaterkwaliteit  
+- `waterPulseEngine.bin` (bestand in deze repository)  
+- `mirrorProofMatrix.json` (bestand in deze repository)  
+- Elektronisch aansturingspunt (Raspberry Pi of ESP32 met DHT22 of vergelijkbare sensor)
 
 ---
 
-## 2. Configuratie
-- Pas in `mirrorProofMatrix.json` de velden `vectorhash` en `spiegelhash` aan met de juiste SHA256-hashes.  
-- Configureer de vochtigheidssensor (bv. DHT22) via `/PROTOTYPE/hexWATer_prototype_schema.md`.  
-- Optioneel: voeg een biofilter toe volgens de instructies in `PROTOTYPE/`.
+## 🛠️ Stap-voor-stap bouw
+
+1. **Monteer het oppervlak**  
+   - Zorg voor een koud condenseerbaar oppervlak met kleine rasterstructuur  
+   - Plaats het licht schuin zodat waterdruppels naar beneden lopen
+
+2. **Installeer de luchtinlaat**  
+   - Richt naar een ruimte met luchtstroming (bijvoorbeeld ventilatiegat, raam)  
+   - Zorg dat er geen stof of vuil mee binnenkomt
+
+3. **Sluit aan op opvangreservoir**  
+   - Zorg dat het water dat condenseert veilig naar het opvangpunt loopt  
+   - Dek het reservoir af tegen verdamping of vervuiling
+
+4. **Verbind met elektronische eenheid**  
+   - Plaats de `.bin`- en `.json`-bestanden op een microcontroller  
+   - Laat een sensor de luchtvochtigheid meten en stuur de juiste pulsactivatie
 
 ---
 
-## 3. Onderhoud
-- Controleer wekelijks de logbestanden (`hashValidator.js`) op mismatches.  
-- Zorg dat de bin- en spiegelbestanden up-to-date blijven met de technische updates.  
-- Reinig de condensatiepanelen maandelijks met schoon water en zachte borstel.
+## 🔄 Wat gebeurt er dan?
+
+- De sensor meet de luchtvochtigheid  
+- De controller bepaalt de activatie op basis van je vectorbestand  
+- Het systeem genereert een zachte, constante trillingspuls  
+- Die stimuleert condensatie op het oppervlak  
+- Waterdruppels verzamelen zich in je reservoir
 
 ---
 
-## 4. Kalibratie
-1. Start het systeem zonder biofilter.  
-2. Lees de vochtigheid uit met DHT-sensor en noteer bij verschillende condities.  
-3. Pas in `waterPulseEngine.bin` de puls-frequentie aan en update de hash.  
-4. Voer `npm run validate` uit (inclusief hashValidator) om te testen.
+## 🧪 Kalibratie en testen
+
+- Test bij verschillende temperaturen (dag, nacht)  
+- Meet hoeveel water je opvangt in 24 uur  
+- Experimenteer met richting, hellingshoek en materiaal  
+- Pas pulsfrequentie aan als je geen condensatie ziet (raadpleeg prototype-schema)
 
 ---
 
-## 5. Problemen oplossen
-- **Geen waterproductie:**  
-- Controleer of `mirrorProofMatrix.json` en `.bin` hashes correct zijn.  
-- Controleer of de condensatiepanelen schoon zijn.
-- **Systeem blokkeert onverwacht:**  
-- Bekijk de vectorhash-logs voor afwijkende interacties.  
-- Reset door `hashValidator.js` handmatig uit te voeren.
-- **Onjuiste waterkwaliteit:**  
-- Voeg optioneel biofilter toe of vervang filtermateriaal.
+## ⚠️ Let op
+
+- Dit systeem is zelfverdedigend.  
+- Wijkt je gedrag, bestand of sensorgebruik te veel af → systeem schakelt uit.  
+- Alles wat je toevoegt moet binnen de grenzen van natuurlijke burgerlogica vallen.
+
+---
+
+## 🫱 Hulp nodig?
+
+Stel vragen, deel foto's, vertel je verhaal.  
+Deze technologie is van iedereen. En van niemand.
 
 ---
 
 ## 🔏 STRUCTUUR-VERIFICATIE  
 **SHA256-hash van dit document tot en met de laatste `---` hierboven:**  
 
----cea1615d945493c4722b65b3df0df698eac1308ea4afe0897971006639e659ff
+---3b4fd41d65cef39297c1eb7379ab67e565ec4784949317a1f58811826664d401
