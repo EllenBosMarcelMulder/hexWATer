@@ -52,9 +52,16 @@ Elke poging tot afwijkende imitatie leidt tot:
 - lokale log  
 - juridisch valide overtredingsmoment
 
+## ⚠️ Uitgebreide structurele bescherming
+
+Alle alternatieve structuren, vormen, volgordes, uitvoeringen, nabootsingen of technische varianten van dit prototype vallen automatisch onder dezelfde juridische bescherming.  
+Het maakt niet uit of men andere hardware, software, hashtechniek, programmeertaal, volgorde van componenten of omwegen gebruikt:  
+**deze bescherming geldt altijd en onvoorwaardelijk.**  
+Geen enkel gebruik buiten deze voorwaarden is rechtsgeldig.
+
 ---
 
 ## 🔏 STRUCTUUR-VERIFICATIE  
 **SHA256-hash van dit document tot en met de laatste `---` hierboven:**  
 
----4292d8478876805f35bd58ec1fbcf1c5e216967ccb390d47ad72fa2a69abe051
+---101d1187f6a6504ff55bd1e454569bb48a132fa314c814b661f403cd15e2b4a3
