@@ -1,22 +1,46 @@
-# TOEKOMSTIGE UITBREIDINGEN – hexWATer
+# TOEKOMST – hexWATer
 
-Deze map bevat notities, plannen en sjablonen voor toekomstige uitbreidingen van het hexWATer-systeem.
+Dit document bevat ruimte en richting voor toekomstige uitbreidingen van het systeem, die voortkomen uit praktijk, intuïtie, noodzaak of nieuwe technologische inzichten. Alles in dit document valt automatisch onder dezelfde bescherming als de Grondakte en Licentie van hexWATer.
 
-- **VN-BRIEVEN.md**  
-  Conceptbrieven voor voorlegging aan VN, WHO en internationale waterconventies.
+---
 
-- **ROADMAP.md**  
-  Stap-voor-stap planningsdocument voor technische, juridische en operationele fasen.
+## 🔄 Mogelijke uitbreidingen
 
-- **GEBRUIKERSHANDLEIDING.md**  
-  Gedetailleerde gebruikershandleiding voor installatie, onderhoud en kalibratie.
+- **Zelfherstellende oppervlakken**  
+  Gebruik van nanocoatings of natuurlijke slijtingstrucs om condensatiepanelen schoon te houden zonder menselijk ingrijpen.
 
-- **COMMUNITY_GUIDELINES.md**  
-  Richtlijnen voor bijdragen, issue-rapportage en samenwerking binnen de open source-gemeenschap.
+- **Miniatuurversies voor persoonlijke rugzakken**  
+  Lichtgewicht, draagbare hexWATer-eenheden op lichaamstemperatuur en ademhaling.
+
+- **Interne geheugenlaag voor feedback**  
+  Modellen die zelf data opslaan over hun eigen werking, falen, of sabotagepogingen — los van internet.
+
+- **Bio-gekoppelde sturing**  
+  Inzet van huidgeleiding, hartslag of ademritme als aansturing van pulsmodules in medische of rampomgevingen.
+
+- **Publiek zelfbouwsysteem**  
+  Kinderen vanaf 10 jaar kunnen hun eigen hexWATer bouwen uit gerecyclede materialen met eenvoudige handleiding.
+
+---
+
+## 🌐 Juridische voorbescherming
+
+Alle ideeën, benaderingen of toepassingen die inhoudelijk, structureel of functioneel aansluiten bij hexWATer — zelfs indien via andere benaming, taal, techniek of vorm — vallen onder deze bescherming.
+
+Deze voorbescherming geldt ook als het idee pas in de toekomst praktisch uitvoerbaar wordt.
+
+---
+
+## 🕊️ Filosofische grondhouding
+
+Water is niet van een bedrijf.  
+Water is niet van een overheid.  
+Water is geen verkoopbaar product.  
+Water is een begin. Een mensenrecht. Een spiegel.
 
 ---
 
 ## 🔏 STRUCTUUR-VERIFICATIE  
 **SHA256-hash van dit document tot en met de laatste `---` hierboven:**  
 
----28838d8080b90a887594d56fd4bd867c95d9eadfca1d0ba318308d6886b64b7e
+---e91a38b0178f4b243ea11edd7a2c66fb5df57dc3fa9135299ef1b05f23ca1ee9
