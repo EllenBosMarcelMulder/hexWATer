@@ -1,39 +1,68 @@
 # COMMUNITY GUIDELINES – hexWATer
 
 ## 1. Doel
-Deze richtlijnen bevorderen een constructieve, veilige en transparante samenwerking binnen de hexWATer-open-sourcegemeenschap.
+
+Deze richtlijnen bevorderen een constructieve, veilige en transparante samenwerking binnen de hexWATer-open-sourcegemeenschap.  
+De bescherming van het systeem, de vrijheid van burgers en het onvervreemdbare karakter van water staan altijd voorop.
+
+---
 
 ## 2. Gedrag en bijdragen
+
 - Wees respectvol en professioneel in alle interacties.  
 - Open issues en pull requests met duidelijke titel en beschrijving.  
 - Gebruik steeds de vastgestelde mappenstructuur en bestandsformaten.  
-- Voeg altijd tests of voorbeelden toe bij codewijzigingen.
+- Voeg altijd tests of voorbeelden toe bij codewijzigingen.  
+- Ondersteun de open-source missie zonder eigenbelang of verborgen agenda’s.
+
+---
 
 ## 3. Issue- en pull request-proces
+
 1. **Issue aanmaken**  
    - Kies een relevante categorie (bug, feature, documentation).  
    - Beschrijf het probleem of voorstel concreet en beknopt.  
-2. **Discus­sie**  
+
+2. **Discussie**  
    - Reageer op vragen of verzoeken om verduidelijking.  
-   - Vermijd off-topic discussies.  
+   - Vermijd off-topic discussies of escalatie.  
+
 3. **Pull request**  
    - Fork de repository en werk in een feature-branch.  
-   - Voeg beschrijving en referentie naar gerelateerd issue toe.  
-   - Zorg dat alle checks (lint, tests) slagen voor merging.
+   - Voeg een beschrijving en verwijzing naar een gerelateerd issue toe.  
+   - Zorg dat alle checks (lint, structuur, hashregels) slagen voor samenvoeging.  
+
+---
 
 ## 4. Code of Conduct
+
 - Geen haatzaaiende taal, pesten of intimidatie.  
-- Respecteer auteursrechten en licentievoorwaarden.  
-- Privacy van gebruikers en bijdragers is onschendbaar.
+- Geen pogingen tot privatisering of juridische verwarring.  
+- Respecteer de licentievoorwaarden en morele grondlijn van het project.  
+- Privacy van gebruikers en bijdragers is onschendbaar.  
+- Transparantie is verplicht bij alle bijdragen en voorstellen.
+
+---
 
 ## 5. Governance
-- Beslissingen over grote feature-marges worden genomen door de Commissie der Wijzen met veto-recht.  
-- Dagelijkse review en merge-taken door het hexWATer-kernteam (Marcel, Ellen, Niels).  
-- Externe bijdragen worden beoordeeld binnen 7 werkdagen.
+
+- Inhoudelijke richting wordt bepaald door het project zelf, niet door individuen.  
+- Grote wijzigingen kunnen alleen worden goedgekeurd met collectieve instemming of een stilzwijgend burgerquorum.  
+- Er is geen centraal gezag, maar wel een beschermingslaag die pogingen tot centralisatie tegenhoudt.
+
+---
+
+## 6. Juridische laagbescherming
+
+- Elke bijdrage of interactie met dit systeem valt onder een meervoudig beschermingskader:
+  1. **Inhoudelijk** – je mag geen tekst of ideeën kopiëren voor gesloten of commerciële doelen.  
+  2. **Functioneel** – elk gebruik van het werkingsprincipe zonder licentie valt onder inbreuk.  
+  3. **Structureel** – alternatieve volgordes of andere tools die hetzelfde effect genereren zijn óók beschermd.  
+  4. **Juridisch** – dit document is direct verbonden aan de Grondakte en Licentie, en afdwingbaar in elk rechtsgebied.
 
 ---
 
 ## 🔏 STRUCTUUR-VERIFICATIE  
 **SHA256-hash van dit document tot en met de laatste `---` hierboven:**  
 
----9659cfa7d96c6b4fc17f23c34c85cde1007554087d8bf78674276eae715a19b0
+---58fee1edfed70be7e27de8d28e81b521ae85b613a42d6cc890adc2106e040abd
