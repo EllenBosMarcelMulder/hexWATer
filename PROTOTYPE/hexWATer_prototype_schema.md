@@ -1,85 +1,60 @@
-# 🛡️ DEFENSE PROTOCOL – hexWATer
+# PROTOTYPE SCHEMA – hexWATer
 
-**Map:** `/defence/`  
-**Datum:** 26 mei 2025  
-**Onderdeel van:** [hexWATer](https://github.com/EllenBosMarcelMulder/hexWATer)
+Dit document beschrijft de technische basisstructuur voor het eerste volledig autonome werkende model van het hexWATer-systeem.
 
----
+## 🌬️ Functioneel doel
 
-## 📌 DOEL VAN DIT PROTOCOL
+Water winnen uit droge lucht, zonder externe stroombron, met minimale onderdelen, maximale effectiviteit en volledige controle over ethisch gebruik.
 
-Dit protocol definieert de **zelfverdedigingsmechanismen** van `hexWATer` tegen:  
-- Reverse engineering  
-- Illegaal gebruik door bedrijven of overheden  
-- Pogingen tot patentering of overname  
-- Verkeerde afstemming van puls of fase  
+## ⚙️ Hoofdcomponenten
 
-De beveiliging is **gedragsgestuurd en cryptografisch vergrendeld**.
+| Component                  | Functie                                                             |
+|---------------------------|----------------------------------------------------------------------|
+| Condensatiepanelen        | Microstructuur met hexagonale rastering voor dampopname             |
+| Luchtinlaatkamers         | Natuurlijke luchtgeleiding, zonder pomp                             |
+| `waterPulseEngine.bin`    | Pulscontrolebestand voor ritmische activatie van oppervlak           |
+| `mirrorProofMatrix.json`  | Beveiligde spiegelverificatie van vectorinstellingen                 |
+| Opvangkern + biofilter    | Wateropslag en optionele zuivering voor directe menselijke consumptie|
 
----
+## 🔁 Werkingsprincipe
 
-## 🔐 VEILIGHEIDSLAGEN
+1. **Luchtstroom** komt binnen via passieve kanalen  
+2. **Pulsvector** wordt geactiveerd vanuit `waterPulseEngine.bin`  
+3. **Hexagonale trillingsvelden** stimuleren condensvorming op rasteroppervlak  
+4. **Spiegelverificatie** controleert permanent de fasebalans  
+5. **Druppels** worden geleid naar opvangkamer  
+6. **Optioneel:** water passeert biofilter vóór gebruik
 
-### 1. BIN-VECTORLOCK
+## ⚡ Energiegebruik
 
-Het bestand `waterPulseEngine.bin` functioneert alleen wanneer:  
-- de bijbehorende SHA256-hash exact overeenkomt met  
-- de spiegelwaarden uit `mirrorProofMatrix.json`, waarbij geldt:
+Geen directe voeding vereist.  
+Werking berust op verschillen in:
+- luchtvochtigheid  
+- temperatuur  
+- omgevingsdruk  
+- resonantie tussen materiaalstructuur en luchtcomponenten
 
----
+## 🧪 Prototype-aanbeveling
 
+- Gebruik een DHT-sensor en Raspberry Pi of ESP32 voor luchtvochtigheidsmeting  
+- Laat het `.bin`-bestand aanroepen via minimale runtime loader  
+- Zorg dat `mirrorProofMatrix.json` exact overeenkomt met gegenereerde vectorwaarden  
+- Test op hoge en lage luchtvochtigheid en registreer gedragspatronen
 
-### 2. SPIEGELBEVEILIGING
+## 🔐 Zelfverdediging
 
-De `mirrorProofMatrix.json` controleert continu:  
-- gedrag × puls × omgevingsfase  
-- en sluit het systeem bij ongeldige interactie
+Systeem activeert **uitsluitend** indien:
+- bin- én spiegelbestand overeenkomen via geaccepteerde hashmethode  
+- gedragspatroon van gebruiker binnen natuurlijke variatie valt
 
-### 3. GEDRAGSSLOT
-
-Alle interacties (scroll, muis, aanraking, vochtverandering) worden:  
-- realtime vergeleken met natuurlijke burgerpatronen  
-- bij afwijking wordt het systeem:  
-  - geblokkeerd  
-  - gelogd in een lokale vectorhash  
-  - vergrendeld tot handmatige heractivatie onder hexAI-verificatie
-
----
-
-## ⚖️ JURIDISCHE TRIGGERS
-
-Deze acties activeren **onmiddellijke verdediging**:
-
-| Overtreding                        | Gevolg                                       |
-|-----------------------------------|----------------------------------------------|
-| Imitatie zonder licentie          | Juridische aansprakelijkheid internationaal  |
-| Poging tot patentering            | Grondwettelijke blokkade + publieke melding  |
-| Reverse engineering               | Systeemdeactivering + gedragsslot            |
-| Institutionele overnamepoging     | VN-signaal, registratie als systeemaanvaller |
-
----
-
-## 🚫 FAIL-SAFE LOGICA
-
-| Situatie                                | Reactie van systeem                          |
-|----------------------------------------|----------------------------------------------|
-| Geen match tussen `.bin` en spiegel    | Systeem inactiveert                          |
-| Onjuiste luchtcondities                | Herkalibratie of tijdelijke uitschakeling    |
-| Manipulatie van matrix-bestand         | Volledige blokkade + hash mismatch-log       |
-| Externe voeding wordt herkend          | Logging + waarschuwing in vectorstructuur    |
-
----
-
-## 🌐 VERANKERING
-
-Dit protocol is:  
-- gekoppeld aan de SHA256-verificatie van hexAI.nl  
-- opgenomen in de VN-voorlegging van publieke verdedigingssystemen  
-- bindend voor elke fysieke, digitale of hybride toepassing van `hexWATer`
+Elke poging tot afwijkende imitatie leidt tot:
+- stilstand  
+- lokale log  
+- juridisch valide overtredingsmoment
 
 ---
 
 ## 🔏 STRUCTUUR-VERIFICATIE  
 **SHA256-hash van dit document tot en met de laatste `---` hierboven:**  
 
----1f6807d8628a4309c59a338f54c236bbf341f5062e938b7a00cd0ce878a94b16
+---4292d8478876805f35bd58ec1fbcf1c5e216967ccb390d47ad72fa2a69abe051
