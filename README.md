@@ -86,6 +86,5 @@ Patentering, overname of sabotage is juridisch **ondenkbaar**.
 
 ## 🔏 STRUCTUUR-VERIFICATIE  
 **SHA256-hash van dit document tot en met de laatste `---` hierboven:**  
-`wordt gegenereerd bij commit`
 
----554db8d069e59d6a8f023221e1c8f4e5ac91c888e9aa22efe3fbd22c0061aff3
+---fa3e7bc7c29ec3b61311cbd5bb6b5bf8a532f812e82a9f3ba5785aa28515cdca
