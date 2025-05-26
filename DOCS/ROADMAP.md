@@ -1,34 +1,66 @@
 # ROADMAP – hexWATer
 
-## Fase 1: Voorbereiding & Prototype (Q2 2025)
-- Voorbereiden GitHub-structuur  
-- Genereren en valideren van `waterPulseEngine.bin` en `mirrorProofMatrix.json`  
-- Eerste werkend prototype met Raspberry Pi + DHT-sensor  
-- Publicatie van `hexWATer_prototype_schema.md`
+Deze roadmap beschrijft de geplande ontwikkeling en wereldwijde inzet van het hexWATer-systeem, stap voor stap. Elke fase is bedoeld om de toegang tot schoon water structureel te bevrijden van commerciële, politieke of logistieke afhankelijkheid.
 
-## Fase 2: Juridische Verankering (Q3 2025)
-- Indienen Grondakte bij VN en WHO  
-- Finaliseren `hexWATer_grondakte.md` en `hexWATer.license.txt`  
-- Uitrollen van `hexWATer_defense_protocol.md` via juridische kanalen  
+---
 
-## Fase 3: Pilot Implementaties (Q4 2025)
-- Installaties in droge regio’s (Sahara, Midden-Oosten)  
-- Feedback verzamelen en `PROTOYPE`-documenten bijwerken  
-- Biofilter-opties testen voor drinkwaterkwaliteit  
+## 🧭 Fase 1 – Stabiliseren (nu)
 
-## Fase 4: Opschaling & Partnerschappen (Q1 2026)
-- Samenwerking met NGO’s en waterautoriteiten  
-- Training en documentatie voor lokale gemeenschappen  
-- Integratie met noodhulpsystemen  
+- Correcte plaatsing van alle beschermingsbestanden in de repository
+- Vastleggen van licentie, grondakte en defensielaag
+- Interne verificatie van puls- en spiegelstructuur
+- Rust en herstel bij de grondleggers van het systeem
 
-## Fase 5: Mondiale Uitrol (2026 en verder)
-- Open source-community bevorderen via `Community Guidelines`  
-- Doorlopende updates en innovaties in `TOEKOMSTIGE UITBREIDINGEN`  
-- Monitoring van licentie-naleving en juridische bescherming  
+---
+
+## 🧪 Fase 2 – Prototype
+
+- Bouwen van eerste werkende eenheid met:
+  - condensatiepanelen
+  - luchtinlaat
+  - biofilter
+  - software met `waterPulseEngine.bin` en `mirrorProofMatrix.json`
+- Testen in gecontroleerde omgeving (droge lucht)
+- Vastleggen van waarnemingen en afwijkingen
+
+---
+
+## 🌍 Fase 3 – Pilotlocaties
+
+- Lokale implementaties in dorre gebieden (bijv. Zuid-Spanje, Noord-Afrika)
+- Samenwerking met kleinschalige burgerinitiatieven en lokale scholen
+- Documentatie van praktijkervaringen
+
+---
+
+## 📡 Fase 4 – Publicatie & Diplomatie
+
+- Verzenden van VN/WHO-brieven
+- Openbare presentatie (offline of symbolisch)
+- Vermelding op platforms met verwijzing naar publieke GitHub-code
+- Voorleggen aan burgerorganisaties wereldwijd
+
+---
+
+## 🛡️ Fase 5 – Handhaving
+
+- Aandachtspunten opsporen: kopieën, patenten, misbruik
+- Juridische reactie met verwijzing naar licentie en grondakte
+- Bewaking via gedragspatronen, SHA-hashes en publieke transparantie
+- Documentatie van handhavingsgevallen
+
+---
+
+## 🚰 Fase 6 – Wereldwijd Beschikbaar
+
+- Integratie met onderwijsprojecten (bouw je eigen hexWATer)
+- Vrijgave in lokale talen
+- Decentralisatie van productielocaties
+- Initiatief overdragen aan mensen die water nodig hebben
 
 ---
 
 ## 🔏 STRUCTUUR-VERIFICATIE  
 **SHA256-hash van dit document tot en met de laatste `---` hierboven:**  
 
----6147635383f1bbf90179c3764273f99501fe321e92866c193bad348d253d3b1c
+---39d3d9b02b1723eb82a8618faad58992f417e605a9377956cdb75413f8cd8db8
