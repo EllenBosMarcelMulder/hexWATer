@@ -1,0 +1,7 @@
+{
+  "hexWATer_mirror_matrix": {
+    "vectorhash": "REPLACE_WITH_SHA256_OF_waterPulseEngine.bin",
+    "spiegelhash": "REPLACE_WITH_SHA256_OF_waterPulseEngine.bin_spiegel"
+  },
+  "description": "Dit bestand bevat de spiegelverificatiehashes die ervoor zorgen dat alleen de authentieke bin–spiegelcombinatie het systeem kan activeren."
+}
