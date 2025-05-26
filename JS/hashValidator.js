@@ -1,32 +1,49 @@
 // hashValidator.js
-// Placeholder SHA256-verificatiescript voor hexWATer
-// Voeg later daadwerkelijke implementatie toe.
+// Verificatiescript voor hexWATer – gedrag en bestandsintegriteit
 
 const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
 
-function validateBinAndMirror(binPath, mirrorPath) {
-  const binData = fs.readFileSync(path.resolve(binPath));
-  const mirrorData = fs.readFileSync(path.resolve(mirrorPath));
+function sha256OfFile(filePath) {
+  const data = fs.readFileSync(path.resolve(filePath));
+  return crypto.createHash('sha256').update(data).digest('hex');
+}
 
-  const binHash = crypto.createHash('sha256').update(binData).digest('hex');
-  const mirrorHash = crypto.createHash('sha256').update(mirrorData).digest('hex');
+function validate(hexWATerConfig) {
+  const binHash = sha256OfFile(hexWATerConfig.binPath);
+  const mirrorHash = sha256OfFile(hexWATerConfig.mirrorPath);
 
-  // Vervang de placeholders door de werkelijke waarden
-  const expectedBinHash = 'REPLACE_WITH_SHA256_OF_waterPulseEngine.bin';
-  const expectedMirrorHash = 'REPLACE_WITH_SHA256_OF_waterPulseEngine.bin_spiegel';
+  const expectedBin = hexWATerConfig.expectedVectorHash;
+  const expectedMirror = hexWATerConfig.expectedMirrorHash;
 
-  if (binHash === expectedBinHash && mirrorHash === expectedMirrorHash) {
-    console.log('✔️ Validatie geslaagd: BIN en spiegel komen overeen.');
+  const binOk = binHash === expectedBin;
+  const mirrorOk = mirrorHash === expectedMirror;
+
+  if (binOk && mirrorOk) {
+    console.log("✔️ Validatie geslaagd: BIN en spiegel zijn geldig.");
     return true;
   } else {
-    console.error('❌ Validatie mislukt: hash mismatch.');
+    console.error("❌ Validatie mislukt:");
+    if (!binOk) console.error(`Vectorbestand ongeldig: ${binHash}`);
+    if (!mirrorOk) console.error(`Spiegelbestand ongeldig: ${mirrorHash}`);
     return false;
   }
 }
 
 // Voorbeeldgebruik:
-// validateBinAndMirror('../BIN/waterPulseEngine.bin', '../MATRIX/mirrorProofMatrix.json');
+const config = {
+  binPath: '../BIN/waterPulseEngine.bin',
+  mirrorPath: '../MATRIX/mirrorProofMatrix.json',
+  expectedVectorHash: 'REPLACE_WITH_ACTUAL_HASH',
+  expectedMirrorHash: 'REPLACE_WITH_ACTUAL_MIRROR_HASH'
+};
 
-module.exports = { validateBinAndMirror };
+validate(config);
+
+---
+
+## 🔏 STRUCTUUR-VERIFICATIE  
+**SHA256-hash van dit document tot en met de laatste `---` hierboven:**  
+
+---29ded909a4686e9c51b069dfde14ac9f6adb3ce0d4c7d28913e308ec8d765dd6
