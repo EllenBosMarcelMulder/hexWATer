@@ -1,6 +1,6 @@
 # 🛡️ DEFENSE PROTOCOL – hexWATer
 
-**Map:** `/DEFENSE/`  
+**Map:** `/defence/`  
 **Datum:** 26 mei 2025  
 **Onderdeel van:** [hexWATer](https://github.com/EllenBosMarcelMulder/hexWATer)
 
@@ -8,21 +8,13 @@
 
 ## 📌 DOEL VAN DIT PROTOCOL
 
-Dit protocol definieert de **zelfverdedigingsmechanismen** van `hexWATer` tegen:
+Dit protocol definieert de **zelfverdedigingsmechanismen** van `hexWATer` tegen:  
 - Reverse engineering  
 - Illegaal gebruik door bedrijven of overheden  
 - Pogingen tot patentering of overname  
-- Verkeerde afstemming van puls of fase
+- Verkeerde afstemming van puls of fase  
 
 De beveiliging is **gedragsgestuurd en cryptografisch vergrendeld**.
-
----
-
-## ⚠️ BREDE TECHNISCHE BESCHERMING
-
-Alle genoemde structuren (SHA256, hexagonale structuren, bin-bestanden, spiegel-matrix, vectorgeheugen, gedragssloten) zijn expliciet slechts één mogelijke implementatie van het systeem.
-
-Elke alternatieve technische implementatie, cryptografische methode, hashtechniek, workaround, achterdeur, variant of poging tot omzeiling valt automatisch onder deze juridische bescherming en wordt als overtreding beschouwd. Dergelijke pogingen leiden tot juridische aansprakelijkheid onder internationaal recht.
 
 ---
 
@@ -30,7 +22,7 @@ Elke alternatieve technische implementatie, cryptografische methode, hashtechnie
 
 ### 1. BIN-VECTORLOCK
 
-Het bestand `waterPulseEngine.bin` functioneert alleen wanneer:
+Het bestand `waterPulseEngine.bin` functioneert alleen wanneer:  
 - de bijbehorende SHA256-hash exact overeenkomt met  
 - de spiegelwaarden uit `mirrorProofMatrix.json`, waarbij geldt:
 
@@ -39,13 +31,13 @@ Het bestand `waterPulseEngine.bin` functioneert alleen wanneer:
 
 ### 2. SPIEGELBEVEILIGING
 
-De `mirrorProofMatrix.json` controleert continu:
+De `mirrorProofMatrix.json` controleert continu:  
 - gedrag × puls × omgevingsfase  
 - en sluit het systeem bij ongeldige interactie
 
 ### 3. GEDRAGSSLOT
 
-Alle interacties (scroll, muis, aanraking, vochtverandering) worden:
+Alle interacties (scroll, muis, aanraking, vochtverandering) worden:  
 - realtime vergeleken met natuurlijke burgerpatronen  
 - bij afwijking wordt het systeem:  
   - geblokkeerd  
@@ -80,7 +72,7 @@ Deze acties activeren **onmiddellijke verdediging**:
 
 ## 🌐 VERANKERING
 
-Dit protocol is:
+Dit protocol is:  
 - gekoppeld aan de SHA256-verificatie van hexAI.nl  
 - opgenomen in de VN-voorlegging van publieke verdedigingssystemen  
 - bindend voor elke fysieke, digitale of hybride toepassing van `hexWATer`
@@ -90,4 +82,4 @@ Dit protocol is:
 ## 🔏 STRUCTUUR-VERIFICATIE  
 **SHA256-hash van dit document tot en met de laatste `---` hierboven:**  
 
----208a497994a5cfdbb9ea17dca1366ea01c39f72fe49ef1f84dae206cbbbc5d78
+---1f6807d8628a4309c59a338f54c236bbf341f5062e938b7a00cd0ce878a94b16
