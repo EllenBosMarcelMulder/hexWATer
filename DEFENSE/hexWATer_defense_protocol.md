@@ -5,30 +5,32 @@ Dit bestand beschrijft de ingebouwde zelfverdediging van het hexWATer-systeem te
 ## 🔒 Beveiligingsprincipes
 
 1. **Gedragsverificatie**  
-   Interactie met het systeem (zowel software als hardware) wordt continu vergeleken met natuurlijke burgerhandelingen.  
-   Afwijkend gedrag leidt tot blokkering of deactivering.
+   Interactie met het systeem (software of hardware) wordt voortdurend vergeleken met herkenbare natuurlijke gebruikerspatronen.  
+   Afwijkend gedrag leidt tot blokkering of automatische deactivering.
 
 2. **Cryptografische integriteit**  
-   Elk bestand dat functioneel is (code, vector, data) wordt beschermd via SHA256-verificatie.  
-   Bij mismatch wordt het systeem automatisch geneutraliseerd.
+   Elk functioneel bestand (code, vector, data) is alleen geldig indien de inhoud exact overeenkomt met de oorspronkelijk vastgelegde structuur via een erkende hashtechniek.  
+   Iedere poging tot vervalsing, duplicatie of bewerking leidt tot automatische uitschakeling.
 
 3. **Spiegelverificatie**  
-   `.bin`-bestanden functioneren uitsluitend in combinatie met een gespiegelde matrix, waarbij geldt:
+   Elk uitvoerbaar kernbestand werkt uitsluitend in combinatie met een geldig, gesynchroniseerd spiegelbestand, volgens principe:
+
 
 4. **Fail-safe blokkades**  
-Elke poging tot reverse engineering, simulatie of alternatieve uitvoering zonder verificatie leidt tot:
-- uitval van het systeem;
-- registratie van de poging;
-- juridische vervolgbaarheid.
+Elke poging tot reverse engineering, imitatie, of alternatieve uitvoering zonder volledige verificatie leidt tot:
+- uitval van het systeem;  
+- log van de poging;  
+- juridische aansprakelijkheid.
 
 ## ⚠️ Juridische erkenning
 
-Dit protocol is onderdeel van de originele Grondakte.  
-Het maakt actieve sabotage of technische omzeiling **onmogelijk zonder wereldwijde schending van publiek recht.**
+Dit protocol is bindend gekoppeld aan de Grondakte van hexWATer.  
+Het beschermt tegen huidige én toekomstige methoden van misbruik, inclusief technieken die nog niet bestaan op het moment van schrijven.  
+Juridische werking blijft behouden, onafhankelijk van technologische evolutie.
 
 ---
 
 ## 🔏 STRUCTUUR-VERIFICATIE  
 **SHA256-hash van dit document tot en met de laatste `---` hierboven:**  
 
----d4161ea80b29c35e5cbbe23830556137430edb473e5f6548309d6e57f6a57bb5
+---0abae4198f594d68eb69180688a7181c22229d9f4d4e9f176d6d3c8cdce3d329
