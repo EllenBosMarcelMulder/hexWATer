@@ -9,7 +9,7 @@ Zie [hexAI.nl](https://github.com/EllenBosMarcelMulder/hexAI.nl)
 
 ## 📂 Bestandenstructuur
 
-- **LICENSE/** → hexWATer.license.txt
+- **LICENSE/** → hexWATer.license.md
 - **AKTE/** → hexWATer_grondakte.md
 - **DEFENSE/** → hexWATer_defense_protocol.md
 - **PROTOTYPE/** → hexWATer_prototype_schema.md
@@ -22,4 +22,4 @@ Zie [hexAI.nl](https://github.com/EllenBosMarcelMulder/hexAI.nl)
 ## 🔏 STRUCTUUR-VERIFICATIE  
 **SHA256-hash van dit document tot en met de laatste `---` hierboven:**  
 
----2eaa9967f136424cd6464d6508290d8e0146f6a1c904c531e3e09634e1bc9f4a
+---50bf691db752d9f7b50a5e5b08bc833798863a6f3a44a130d128044e71408c33
