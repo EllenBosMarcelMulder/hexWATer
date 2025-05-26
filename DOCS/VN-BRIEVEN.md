@@ -1,48 +1,67 @@
-# Conceptbrieven voor VN, WHO en Internationale Waterconventies
+# OFFICIËLE VOORLEGGING – hexWATer
 
-## Aan: Verenigde Naties (VN)
-### Onderwerp: Voorlegging Grondakte hexWATer
-Geachte leden van de VN-commissie,
-
-Hierbij bieden wij u de Grondakte van het project **hexWATer** aan, als bewijs van onze intentie om waterwinning uit droge lucht wereldwijd als openbaar goed te verankeren. Wij verzoeken uw gewaardeerde orgaan om:
-- Formele erkenning als “Publiek Werelderfgoed”
-- Ondersteuning bij internationale implementatie
-- Advies over juridische harmonisatie met lokale waterrechten
-
-Hoogachtend,  
-Projectteam hexWATer  
+Dit document bevat drie formele brieven ter voorlegging van het hexWATer-systeem aan internationale instellingen.
 
 ---
 
-## Aan: Wereldgezondheidsorganisatie (WHO)
-### Onderwerp: Technische en humanitaire inzet hexWATer
+## 📨 Aan: Verenigde Naties (VN)
+
+**Onderwerp:** Formele erkenning van hexWATer als Publiek Werelderfgoed
+
+Geachte Secretaris-Generaal,
+
+Het systeem `hexWATer` stelt burgers wereldwijd in staat om zelfstandig water te winnen uit droge lucht, zonder afhankelijkheid van infrastructuur, staat of markt.
+
+Wij verzoeken u:
+
+- om internationale erkenning van het systeem als publiek domein;
+- om bescherming tegen privatisering en octrooibescherming door derden;
+- om samenwerking in de wereldwijde verspreiding.
+
+Hoogachtend,  
+Vertegenwoordigers van het hexWATer-systeem
+
+---
+
+## 📨 Aan: Wereldgezondheidsorganisatie (WHO)
+
+**Onderwerp:** Toetsing van drinkwaterkwaliteit via hexWATer in nood- en crisissituaties
+
 Geachte Directeur-Generaal,
 
-Wij stellen u voor aan **hexWATer**, een autonoom systeem voor waterwinning in crisis- en rampgebieden. Wij vragen uw advies over:
-- Veiligheidsprotocollen voor drinkwaterkwaliteit
-- Integratie met bestaande noodhulpsystemen
-- Onderzoekssamenwerking voor biofilter-ontwikkeling  
+Wij vragen uw medisch-ethische ondersteuning bij:
 
-Met vriendelijke groet,  
-Projectteam hexWATer  
+- validatie van hexWATer als noodvoorziening voor drinkwater;
+- integratie in bestaande noodhulppakketten;
+- ethische richtlijnen voor inzet onder extreme omstandigheden.
+
+Bij voorbaat dank voor uw beoordeling.
+
+Met eerbied,  
+Ontwikkelaars en beschermers van het hexWATer-initiatief
 
 ---
 
-## Aan: Intergouvernementele Waterconventie
-### Onderwerp: Implementatie open-source watertechnologie
+## 📨 Aan: Intergouvernementele Waterconventie
+
+**Onderwerp:** Juridische verankering van open-source watertechnologie
+
 Geachte commissie,
 
-Wij bieden u onze open-source blauwdruk van **hexWATer**. Wij nodigen u uit voor:
-- Technische evaluatie
-- Advies over internationale licentievoorwaarden
-- Samenwerking met lokale waterautoriteiten  
+Wij verzoeken uw instelling om hexWATer:
 
-Hoogachtend,  
-Projectteam hexWATer  
+- op te nemen als onpatenteerbare publieke technologie;
+- internationaal te classificeren als vrij beschikbare watertechnologie;
+- juridische bescherming te verlenen tegen privaat of staatsmisbruik.
+
+Wij bieden hierbij alle bronbestanden, modellen en grondakte aan.
+
+Met waardering,  
+het projectteam
 
 ---
 
 ## 🔏 STRUCTUUR-VERIFICATIE  
 **SHA256-hash van dit document tot en met de laatste `---` hierboven:**  
 
----d7cefea8b536c42c53f73c10d1c53c499c7123ede541cbbb2604c29d2d4f6c89
+---58194270db400159dd8a00409de0a36ae7f65bac77effe7d22b65f5734ac3ff5
