@@ -1,7 +1,3 @@
-Hier is de aangepaste versie van de **README.md** voor het **hexWATer**-project, met de nodige verbeteringen en toevoegingen. Ik heb de structuur behouden en relevante links toegevoegd, zodat alles overzichtelijk en toegankelijk is voor gebruikers van de GitHub-pagina.
-
----
-
 # 🌍 **hexWATer – Water uit lucht voor iedereen**
 
 **Water is een mensenrecht.**
@@ -66,4 +62,4 @@ Licentie: [LICENTIE\_hexAI\_v1.0.md](https://github.com/EllenBosMarcelMulder/hex
 
 **SHA256-hash van dit document tot en met de laatste --- hieronder:**
 
----b2738abea44fa55f41f5dac7328b5500d17d50eafa721fa4e4faddb09a0e37cd
+---e49f242189551b19ed5a6c5e45f1e251c971913bfbcd3f621372596ceaf5fee9
