@@ -55,7 +55,7 @@ Deze repository bevat verschillende secties, afhankelijk van je behoefte en gebr
 * **[DEFENSE](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/DEFENSE)** – Beveiliging en verdediging van het systeem tegen misbruik.
 * **[DOCS](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/DOCS)** – Gedetailleerde documentatie voor installatie en verdere ontwikkeling.
 
-#### **Bestanden voor educatie en toepassing**:
+#### **Bestanden voor educatie en toepassing DEZE VOLGEN IN DE LOOP VAN DEZE DAG**:
 
 * **[educatie](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/educatie)** – Lesmateriaal voor scholen, hulporganisaties en bewoners van dorps- of rampgebieden.
 * **[modules](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/modules)** – Condenscoatingen, resonantiepanelen en aanvullende technische documenten.
@@ -84,4 +84,4 @@ Licentie: [LICENTIE\_hexAI\_v1.0.md](https://github.com/EllenBosMarcelMulder/hex
 
 **SHA256-hash van dit document tot en met de laatste --- hieronder:**
 
----63b0b7206fc6d60375adc68185729abf14cef6bc983c559c9f62407d176f1dc2
+---1a8e1328b6ef11672c0690674c30c04e54e84899a5f3fe9be568cab78c641359
