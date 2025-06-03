@@ -27,16 +27,38 @@ De missie van hexWATer is eenvoudig:
 | hexMEDicalWATerDRIp | Medische inzet        | Gezuiverd   | ± 10 – 30 l/dag        | Technisch schema gereed |
 | [hexWATerBIGDRIp](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/README.md)                           | Industriële schaal    | Vast        | ± 2.000 – 10.000 l/dag | PROTOTYPE GEREED ✅      |
 
+
 ---
 
 ### 📂 **BESTANDENSTRUCTUUR**
 
-| Bestand                                                                                                                          | Beschrijving                                 |
-| -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| [01\_BIGDRIp\_TECHNISCH\_ONTWERP.md](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/01_BIGDRIp_TECHNISCH_ONTWERP.md) | Uitwerking schema’s en ontwerpdetails        |
-| [02\_BIGDRIp\_PRODUCTIEPLAN.md](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/02_BIGDRIp_PRODUCTIEPLAN.md)          | Materiaalkeuze, kostenraming, schaalbaarheid |
-| [03\_BIGDRIp\_SYSTEEMWERKING.md](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/03_BIGDRIp_SYSTEEMWERKING.md)        | Beschrijving resonantiecondens-principe      |
-| [04\_BIGDRIp\_OPENBARE\_LICENTIE.md](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/04_BIGDRIp_OPENBARE_LICENTIE.md) | Juridische bescherming en burgerlicentie     |
+Deze repository bevat verschillende secties, afhankelijk van je behoefte en gebruik:
+
+#### \*\*Hoofdtechnologieën en -documenten voor de **BIGDRip**:
+
+* **[01\_BIGDRIp\_TECHNISCH\_ONTWERP.md](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/01_BIGDRIp_TECHNISCH_ONTWERP.md)** – Uitwerking schema’s en ontwerpdetails voor de BIGDRip.
+* **[02\_BIGDRIp\_PRODUCTIEPLAN.md](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/02_BIGDRIp_PRODUCTIEPLAN.md)** – Materiaalkeuze, kostenraming en schaalbaarheid voor de BIGDRip.
+* **[03\_BIGDRIp\_SYSTEEMWERKING.md](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/03_BIGDRIp_SYSTEEMWERKING.md)** – Beschrijving van het resonantiecondens-principe dat de technologie aandrijft.
+* **[04\_BIGDRIp\_OPENBARE\_LICENTIE.md](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/04_BIGDRIp_OPENBARE_LICENTIE.md)** – Juridische bescherming en publieke licentie voor het systeem.
+
+#### **Technische en juridische bestanden** (voor verdere ontwikkeling en licenties):
+
+* **[AKTE](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/AKTE)** – De juridische grondslag voor hexWATer, inclusief de erkenning van water als collectief recht.
+* **[LICENSE](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/LICENSE)** – Algemene licentievoorwaarden voor gebruik van hexWATer door bedrijven en overheden.
+* **[MATRIX](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/MATRIX)** – Gedrags- en pulsmatrix voor de hexWATer-technologie.
+* **[hexWATer.license.md](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/hexWATer.license.md)** – Gedetailleerde licentievoorwaarden voor bedrijven en overheden die de technologie willen implementeren.
+
+#### **Bestanden voor ontwikkelaars** (voor diepgaande technische implementatie):
+
+* **[BIN](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/BIN)** – Gecompileerde versie van het systeem voor gebruik door ontwikkelaars.
+* **[JS](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/JS)** – JavaScript-bestanden voor interface-integratie met het systeem.
+* **[DEFENSE](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/DEFENSE)** – Beveiliging en verdediging van het systeem tegen misbruik.
+* **[DOCS](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/DOCS)** – Gedetailleerde documentatie voor installatie en verdere ontwikkeling.
+
+#### **Bestanden voor educatie en toepassing**:
+
+* **[educatie](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/educatie)** – Lesmateriaal voor scholen, hulporganisaties en bewoners van dorps- of rampgebieden.
+* **[modules](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/modules)** – Condenscoatingen, resonantiepanelen en aanvullende technische documenten.
 
 ---
 
@@ -62,4 +84,4 @@ Licentie: [LICENTIE\_hexAI\_v1.0.md](https://github.com/EllenBosMarcelMulder/hex
 
 **SHA256-hash van dit document tot en met de laatste --- hieronder:**
 
----b0178fdcb7fb6252873f5aa1be6c3d91aa89db2d44a72bbec65dd9394df3c9be
+---63b0b7206fc6d60375adc68185729abf14cef6bc983c559c9f62407d176f1dc2
