@@ -1,4 +1,4 @@
-## 01 – Technisch Ontwerp van het hexWATerBIGDRIp-systeem
+## 01 – Technisch ontwerp van het hexWATerBIGDRIp-systeem
 
 Het **hexWATerBIGDRIp**-systeem is ontworpen voor industriële en grootschalige toepassing, met als doel water op te wekken uit lucht in droge gebieden, rampgebieden en afgelegen locaties zonder toegang tot drinkwater.
 
@@ -64,4 +64,4 @@ Afvoerleidingen verbinden zich direct met een centrale buffertank of irrigatieka
 
 **SHA256-hash van dit document tot en met de laatste --- hieronder:**
 
----31fb73727cdc80afde804d279e4418e26477e4f97a3481fb608c8e5048001d5f
+---18c41f1d972884615b2376412dda807a9794cc8156aad7af650ed870b2f90be8
