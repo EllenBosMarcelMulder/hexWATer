@@ -21,10 +21,10 @@ De missie van hexWATer is eenvoudig:
 
 | Apparaat                                                                                                          | Doelgroep             | Gebruik     | Output (liters/dag)    | Status                  |
 | ----------------------------------------------------------------------------------------------------------------- | --------------------- | ----------- | ---------------------- | ----------------------- |
-| [hexWATerHOMeDRIp]   | Huishoudens           | Stationair  | ± 8 – 15 l/dag         | Ontworpen               |
-| [hexWATerNOMadDRIp]      | Individuele reizigers | Draagbaar   | ± 1 – 3 l/dag          | In ontwikkeling         |
-| [hexWATerALLDRIp]      | Dorps- of wijkgebruik | Semi-mobiel | ± 80 – 200 l/dag       | Onder planning          |
-| [hexMEDicalWATerDRIp] | Medische inzet        | Gezuiverd   | ± 10 – 30 l/dag        | Technisch schema gereed |
+| hexWATerHOMeDRIp   | Huishoudens           | Stationair  | ± 8 – 15 l/dag         | Ontworpen               |
+| hexWATerNOMadDRIp      | Individuele reizigers | Draagbaar   | ± 1 – 3 l/dag          | In ontwikkeling         |
+| hexWATerALLDRIp      | Dorps- of wijkgebruik | Semi-mobiel | ± 80 – 200 l/dag       | Onder planning          |
+| hexMEDicalWATerDRIp | Medische inzet        | Gezuiverd   | ± 10 – 30 l/dag        | Technisch schema gereed |
 | [hexWATerBIGDRIp](https://github.com/EllenBosMarcelMulder/hexWATer/blob/main/README.md)                           | Industriële schaal    | Vast        | ± 2.000 – 10.000 l/dag | PROTOTYPE GEREED ✅      |
 
 ---
@@ -62,4 +62,4 @@ Licentie: [LICENTIE\_hexAI\_v1.0.md](https://github.com/EllenBosMarcelMulder/hex
 
 **SHA256-hash van dit document tot en met de laatste --- hieronder:**
 
----688479bfb1ea9ad9a22df345f3952dcffa952b33b41c169586800d4da8333dda
+---b0178fdcb7fb6252873f5aa1be6c3d91aa89db2d44a72bbec65dd9394df3c9be
